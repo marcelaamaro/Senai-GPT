@@ -1,2 +1,5 @@
 # Senai-GPT
-Projeto de desenvolvimento do chat GPT do Senai.
+Este e o repositorio criado para guardas os arquivos do projeto SenaiGPT.
+## Tecnologias
+-HTML
+CSS
