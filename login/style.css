@@ -9,6 +9,8 @@ font-family: "Inter";
 .titulo {
     font-size: 76px;
     font-family:"Inter";
+    font-weight: 400;
+    margin-bottom: 16px;
 }
 
 .robo-image {
@@ -49,4 +51,27 @@ font-family: "Inter";
 
 .login-container img {
     height: 60px;
+}
+
+.inpt {
+
+    padding: 18px; /* espaçamento interno */
+    background-color: #f7f9fb;
+    width: 377px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 16px;
+
+}
+
+.button{
+    cursor: pointer;
+ padding: 18px;
+ width: 377px;
+margin-bottom: 16px;
+background-color: #1c1c1c;
+color: #ffffff;
+border: none;
+    border-radius: 12px;
+font-size: 18px;
 }
