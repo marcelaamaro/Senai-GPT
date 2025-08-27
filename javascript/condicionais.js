@@ -77,20 +77,46 @@
 // }
 
 // exercicio 1 intermediario
-let numero1= parseFloat(prompt ("Digite um numero"));
-let numero2= parseFloat(prompt ("Agora outro numero"));
-let operacao= prompt ("+,-,*,/")
+// let numero1= Number(prompt ("Digite um numero"));
+// let numero2= Number(prompt ("Agora outro numero"));
+// let operacao= prompt ("+,-,*,/")
 
-if (operacao === "+") { 
-    resultado = numero1+numero2 
+// if (operacao === "+") { 
+//     resultado = numero1+numero2 
 
-} else if  (operacao === "-") { 
-    resultado = numero1-numero2 
+// } else if  (operacao === "-") { 
+//     resultado = numero1-numero2 
     
-} else if  (operacao === "*") { 
-    resultado = numero1*numero2 }
+// } else if  (operacao === "*") { 
+//     resultado = numero1*numero2 }
 
-     else if  (operacao === "/") { 
-    resultado = numero1/numero2 }
+//      else if  (operacao === "/") { 
+//     resultado = numero1/numero2 }
 
-    alert("resultado:"+resultado);
+//     alert("resultado:"+resultado);
+
+
+// exercicio 2 intermediario desconto em compras 
+// let valor= Number(prompt ("Digite o preco"));
+
+// if (valor > 100) { 
+
+// let desconto = valor *0.10;
+// let valorcomdesconto = valor - desconto;
+ 
+// alert("valor original: R$" + valor.toFixed(2) + "\ndesconto de 10%: R$" + desconto.toFixed(2) + "\nvalor com desconto: R$" +valorcomdesconto.toFixed(2));
+
+// }else{
+// alert("valor da compra:R$" + valor.toFixed(2) + "/nSem desconto, valor normal.")
+// }
+
+// exercicio 3 intemediario LOGIN 
+let usuario= (prompt ("Digite o usuario"));
+let senha= (prompt ("Digite a senha"));
+
+if (usuario == "admin" && senha == "1234") {
+alert ("PODE ENTRAR FI")
+
+}else{
+alert ("BARRADE")
+}
