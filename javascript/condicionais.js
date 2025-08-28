@@ -4,7 +4,7 @@
 // if (idade > 18) {
 
 //     alert ("Parabens! Voce e maior de idade.")
-    
+
 // } else {
 //     alert ("Vai pra super Nani!")
 // }
@@ -86,7 +86,7 @@
 
 // } else if  (operacao === "-") { 
 //     resultado = numero1-numero2 
-    
+
 // } else if  (operacao === "*") { 
 //     resultado = numero1*numero2 }
 
@@ -103,7 +103,7 @@
 
 // let desconto = valor *0.10;
 // let valorcomdesconto = valor - desconto;
- 
+
 // alert("valor original: R$" + valor.toFixed(2) + "\ndesconto de 10%: R$" + desconto.toFixed(2) + "\nvalor com desconto: R$" +valorcomdesconto.toFixed(2));
 
 // }else{
@@ -111,12 +111,24 @@
 // }
 
 // exercicio 3 intemediario LOGIN 
-let usuario= (prompt ("Digite o usuario"));
-let senha= (prompt ("Digite a senha"));
+// let usuario = (prompt("Digite o usuario"));
+// let senha = (prompt("Digite a senha"));
 
-if (usuario == "admin" && senha == "1234") {
-alert ("PODE ENTRAR FI")
+// if (usuario == "admin" && senha == "1234") {
+//     alert("PODE ENTRAR FI")
 
-}else{
-alert ("BARRADE")
+// } else {
+//     alert("BARRADE")
+// }
+
+// exercicio 4 intemediario maior entre 3 numeros 
+let numero01 = Number(prompt("Digite um numero"));
+let numero02 = Number(prompt("Digite o segundo numero"));
+let numero03 = Number(prompt("Digite o ultimo numero"));
+
+if (numero01 > numero02  &&x") {
+    alert("PODE ENTRAR FI")
+
+} else {
+    alert("BARRADE")
 }
