@@ -126,9 +126,3 @@ let numero01 = Number(prompt("Digite um numero"));
 let numero02 = Number(prompt("Digite o segundo numero"));
 let numero03 = Number(prompt("Digite o ultimo numero"));
 
-if (numero01 > numero02  &&x") {
-    alert("PODE ENTRAR FI")
-
-} else {
-    alert("BARRADE")
-}
