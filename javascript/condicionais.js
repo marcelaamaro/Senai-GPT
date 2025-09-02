@@ -1,13 +1,18 @@
-// Exercicio 1
-// let idade = prompt ("Qual e a idade?");
+// Exercicio 1 
+function exercicio01() {
+let idade = prompt ("Qual e a idade?");
 
-// if (idade > 18) {
+if (idade > 18) {
 
-//     alert ("Parabens! Voce e maior de idade.")
+    alert ("Parabens! Voce e maior de idade.")
 
-// } else {
-//     alert ("Vai pra super Nani!")
-// }
+} else {
+    alert ("Vai pra super Nani!")
+} 
+
+adicionarlog();
+
+}
 // Exercicio 1
 // let idade = prompt ("Qual sua idade?");
 // if (idade >=18) {
@@ -122,7 +127,7 @@
 // }
 
 // exercicio 4 intemediario maior entre 3 numeros 
-let numero01 = Number(prompt("Digite um numero"));
-let numero02 = Number(prompt("Digite o segundo numero"));
-let numero03 = Number(prompt("Digite o ultimo numero"));
+// let numero01 = Number(prompt("Digite um numero"));
+// let numero02 = Number(prompt("Digite o segundo numero"));
+// let numero03 = Number(prompt("Digite o ultimo numero"));
 
